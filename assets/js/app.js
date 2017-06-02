@@ -10,7 +10,6 @@ $(_=>{
         buttonPrevious = $(".btn-previous"),
         buttonNext = $(".btn-next");
         $(".slide-container .image-container:last").insertBefore(".slide-container .image-container:first");
-        alert("si")
         slideContainer.css("margin-left", "-"+ 100 +"%");
 
          function moverD() {
